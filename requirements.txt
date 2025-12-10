@@ -1,0 +1,17 @@
+pyproj
+xarray
+cartopy
+netCDF4 
+roaring-landmask
+cmocean
+geojson
+coloredlogs
+copernicusmarine
+geopandas
+nc-time-axis
+pykdtree
+utm
+xhistogram
+scipy
+psutil
+hydra-core
