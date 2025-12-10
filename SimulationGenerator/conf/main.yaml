@@ -1,0 +1,9 @@
+configs:
+  base_sim_config: null
+  cm_config: "cm_data_config"
+  gif_config: "gif_frame_config"
+  cm_login: "cm_credentials"
+
+paths:
+  list_sim_configs_location: "conf_lists/"
+  sim_results_location: "results/"

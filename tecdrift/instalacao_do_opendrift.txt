@@ -1,0 +1,32 @@
+Instalação do OpenDrift em Python  (bkassar..18jul2025)
+
+Baixa o código em https://github.com/OpenDrift/
+Vai até o diretório onde descompactou o código
+> cd opendrift
+
+Instala o OpenDrift na instalação de Python (cria um ambiente se quiser... eu prefiro instalar globalmente)
+> python -m pip install --no-deps -e .
+
+Instala os packages necessários:
+> python -m pip install pyproj
+> python -m pip install xarray
+> python -m pip install cartopy
+> python -m pip install netCDF4 
+> python -m pip install roaring-landmask
+> python -m pip install cmocean
+> python -m pip install geojson
+> python -m pip install coloredlogs
+
+
+Instalação do adios_db, Database de óleos:
+Baixar o código em:
+https://github.com/NOAA-ORR-ERD/adios_oil_database
+
+cd adios_db
+C:\Users\bkassar\AppData\Local\Programs\Python\Python311\python.exe -m pip install --no-deps -e .
+
+
+Instalação do PyNUCOS
+https://github.com/NOAA-ORR-ERD/PyNUCOS
+cd D:\cfd\oildrift_packages\PyNUCOS-main
+C:\Users\bkassar\AppData\Local\Programs\Python\Python311\python.exe -m pip install --no-deps -e .
